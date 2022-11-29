@@ -191,7 +191,7 @@ RUN apk add \
         sudo \
         libedit \
         libldap \
-        opnssh \
+        openssh \
         libcap && \
     /venv/bin/python3 -m pip install --no-cache-dir gunicorn && \
     find / -type d -name '__pycache__' -exec rm -rf {} + && \
